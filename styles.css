@@ -6,20 +6,37 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+body {
+  background-image: linear-gradient(
+    to right top,
+    #138576,
+    #139aae,
+    #67a9d9,
+    #b5b4ed,
+    #f6c0ec
+  );
+}
 .parent {
   display: flex;
   justify-content: space-around;
   font-size: 7rem;
   text-align: center;
+  margin: 10rem;
 }
-.food {
-  border: 1px solid aqua;
-  border-radius: 2rem;
+.parent h1 {
+  font-family: "Courgette", cursive;
+}
+.parent p {
+  font-family: "Lobster Two", cursive;
 }
 .parent img {
-  height: 35vh;
+  margin: 2rem;
+  width: 30rem;
   border-radius: 2rem;
-  padding: 3rem;
 }
-.food1 {
+.food {
+  border: 10px double black;
+  border-radius: 2rem;
+  padding: 5rem;
+  box-shadow: 5px 10px lightskyblue;
 }
