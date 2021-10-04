@@ -7,16 +7,9 @@ body,
   font-size: 62.5%;
 }
 body {
-  background-image: linear-gradient(
-    to right top,
-    #138576,
-    #139aae,
-    #67a9d9,
-    #b5b4ed,
-    #f6c0ec
-  );
+  background-image: linear-gradient(to right top, #cccfd3, #c8cacd, #c5c5c7, #c1c1c2, #bcbcbc);
 }
-.head h1{
+.title{
   font-size: 10rem;
   text-align: center;
   font-family: 'Pacifico', cursive;
@@ -26,17 +19,16 @@ body {
   justify-content: space-around;
   font-size: 7rem;
   text-align: center;
-  margin: 10rem;
+  margin: 5rem;
 }
 .row1{
   margin-top: 2rem;
 }
 #name{
   font-family: "Courgette", cursive;
-  border: 0.5rem solid black;
-  border-radius: 1rem;
+  font-size: 4rem;
 }
-.parent p {
+.price{
   font-family: "Lobster Two", cursive;
 }
 .parent img {
@@ -45,8 +37,9 @@ body {
   border-radius: 2rem;
 }
 .food {
-  border: 1rem double black;
+  border: 1rem black;
+  background-color: rgb(230, 227, 227);
   border-radius: 2rem;
   margin-top: 2rem;
   padding: 5rem;
-  box-shadow: 5px 10px cadetblue;
+  box-shadow: 1rem 1rem lightslategrey;
