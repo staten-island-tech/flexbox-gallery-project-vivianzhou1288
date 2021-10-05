@@ -7,12 +7,19 @@ body,
   font-size: 62.5%;
 }
 body {
-  background-image: linear-gradient(to right top, #cccfd3, #c8cacd, #c5c5c7, #c1c1c2, #bcbcbc);
+  background-image: linear-gradient(
+    to right top,
+    #cccfd3,
+    #c8cacd,
+    #c5c5c7,
+    #c1c1c2,
+    #bcbcbc
+  );
 }
-.title{
+.title {
   font-size: 10rem;
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 .parent {
   display: flex;
@@ -21,14 +28,14 @@ body {
   text-align: center;
   margin: 5rem;
 }
-.row1{
+.row1 {
   margin-top: 2rem;
 }
-#name{
+#name {
   font-family: "Courgette", cursive;
   font-size: 4rem;
 }
-.price{
+.price {
   font-family: "Lobster Two", cursive;
 }
 .parent img {
@@ -43,3 +50,4 @@ body {
   margin-top: 2rem;
   padding: 5rem;
   box-shadow: 1rem 1rem lightslategrey;
+}
