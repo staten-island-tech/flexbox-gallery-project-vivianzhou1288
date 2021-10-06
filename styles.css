@@ -34,6 +34,10 @@ body {
 #name {
   font-family: "Courgette", cursive;
   font-size: 4rem;
+  transition: margin-right 0.5s;
+}
+#name:hover {
+  color: rgb(91, 91, 221);
 }
 .price {
   font-family: "Lobster Two", cursive;
@@ -50,4 +54,31 @@ body {
   margin-top: 2rem;
   padding: 5rem;
   box-shadow: 1rem 1rem lightslategrey;
+  transition: all 0.5s;
+}
+.food:hover {
+  transform: scale(1.1);
+}
+.price {
+  transition: all 0.5s;
+}
+.price:hover {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px) scale(1.1);
+}
+button {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  line-height: 2.5;
+  padding: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  display: inline-block;
+  border-radius: 2rem;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: lightpink;
 }
