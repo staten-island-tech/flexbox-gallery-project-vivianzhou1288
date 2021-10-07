@@ -22,19 +22,21 @@ body {
   font-family: "Pacifico", cursive;
 }
 .parent {
-  display: flex;
   justify-content: space-around;
   font-size: 7rem;
   text-align: center;
   margin: 5rem;
+  flex-wrap: wrap;
 }
-.row1 {
+.food {
   margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 #name {
   font-family: "Courgette", cursive;
   font-size: 4rem;
-  transition: margin-right 0.5s;
+  transition: all 0.5s;
 }
 #name:hover {
   color: rgb(91, 91, 221);
@@ -46,6 +48,13 @@ body {
   margin: 2rem;
   width: 30rem;
   border-radius: 2rem;
+  transition: all 0.5s;
+  box-shadow: 0 0 0.2rem rgb(121, 177, 233);
+}
+.parent img:hover {
+  box-shadow: 0 2rem 2rem -2rem rgb(121, 177, 233);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .food {
   border: 1rem black;
