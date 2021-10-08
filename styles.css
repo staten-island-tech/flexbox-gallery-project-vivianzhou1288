@@ -27,22 +27,33 @@ body {
   text-align: center;
   margin: 5rem;
   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
 }
 .food {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
+  width: 25%;
+  margin: 3rem;
 }
-#name {
+#food-name {
   font-family: "Courgette", cursive;
   font-size: 4rem;
   transition: all 0.5s;
 }
-#name:hover {
+#food-name:hover {
   color: rgb(91, 91, 221);
 }
-.price {
+.food-price {
   font-family: "Lobster Two", cursive;
+}
+.food-price {
+  transition: all 0.5s;
+}
+.food-price:hover {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px) scale(1.1);
 }
 .parent img {
   margin: 2rem;
@@ -50,6 +61,7 @@ body {
   border-radius: 2rem;
   transition: all 0.5s;
   box-shadow: 0 0 0.2rem rgb(121, 177, 233);
+  justify-content: center;
 }
 .parent img:hover {
   box-shadow: 0 2rem 2rem -2rem rgb(121, 177, 233);
@@ -64,16 +76,10 @@ body {
   padding: 5rem;
   box-shadow: 1rem 1rem lightslategrey;
   transition: all 0.5s;
+  justify-content: center;
 }
 .food:hover {
   transform: scale(1.1);
-}
-.price {
-  transition: all 0.5s;
-}
-.price:hover {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px) scale(1.1);
 }
 button {
   margin-top: 1rem;
