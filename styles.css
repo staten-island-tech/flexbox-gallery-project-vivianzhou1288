@@ -111,3 +111,59 @@ body {
     transform: rotateX(0);
   }
 }
+@media (max-width: 1280px) {
+  .food {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    margin: 3rem;
+    align-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .food {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 3rem;
+    align-content: center;
+  }
+  .parent img {
+    width: 40rem;
+    margin-left: 7rem;
+    transition: all 0.5s;
+  }
+}
+@media (max-width: 768px) {
+  .food {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 3rem;
+  }
+  .parent img {
+    width: 35rem;
+    margin-left: 1rem;
+    transition: all 0.5s;
+  }
+}
+@media (max-width: 390px) {
+  .food {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    margin: 3rem;
+    align-content: center;
+  }
+  .food:hover {
+    transform: scale(1.03);
+  }
+  .parent img {
+    width: 25rem;
+    margin-left: 0.1rem;
+  }
+}
