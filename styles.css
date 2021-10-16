@@ -111,6 +111,12 @@ body {
     transform: rotateX(0);
   }
 }
+@media (max-width: 1600px) {
+  .parent img {
+    width: 25rem;
+    margin-left: 1.2rem;
+  }
+}
 @media (max-width: 1280px) {
   .food {
     margin-top: 2rem;
@@ -133,7 +139,6 @@ body {
   .parent img {
     width: 40rem;
     margin-left: 7rem;
-    transition: all 0.5s;
   }
 }
 @media (max-width: 768px) {
@@ -147,7 +152,6 @@ body {
   .parent img {
     width: 35rem;
     margin-left: 1rem;
-    transition: all 0.5s;
   }
 }
 @media (max-width: 390px) {
