@@ -99,7 +99,7 @@ button:hover {
   background-color: lightpink;
 }
 body {
-  animation: fadeIn 1s;
+  animation: fadeIn 3s;
 }
 @keyframes fadeIn {
   from {
@@ -125,6 +125,10 @@ body {
     width: 37%;
     margin: 3rem;
     align-content: center;
+  }
+  .parent img {
+    width: 30rem;
+    margin-left: 2rem;
   }
 }
 @media (max-width: 1024px) {
