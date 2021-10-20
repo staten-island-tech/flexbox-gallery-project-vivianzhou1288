@@ -152,6 +152,7 @@ body {
     flex-direction: column;
     width: 70%;
     margin: 3rem;
+    align-content: center;
   }
   .parent img {
     width: 35rem;
